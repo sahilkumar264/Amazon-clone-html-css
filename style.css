@@ -1,0 +1,427 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    background-color: #131921;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    /* z-index: 2; */
+    /* position: fixed; */
+}
+
+.image{
+    height: 42px;
+    width: 150px;
+    margin-top: 9px;
+    margin-left: 6px;
+    margin-right: 8px;
+    margin-bottom: 6px;
+}
+
+.image:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+
+.location{
+    height: 42px;
+    margin-top: 6px;
+    margin-left: 9px;
+    margin-right: 8px;
+    margin-bottom: 2px;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+.d{
+    color: #cccccc;
+}
+
+.u{
+    color: #ffffff;
+    display: inline-block;
+}
+
+.location:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+#all{
+    height: 70%;
+    width: 100%;
+    text-align: center;
+    background-color: #ccccccfd;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.all_search{
+    width: 600px;
+    display: flex;
+}
+
+.all{
+    height: 51px;
+    width: 50px;
+    margin-top: 10px;
+}
+
+.input_search{
+    margin-top: 10px;
+    
+}
+
+.search{
+    height: 32px;
+    width: 500px;
+    
+}
+
+.submit{
+    margin-top: 9.8px;
+    height: 37px;
+    width: 40px;
+    background-color: #FEBD68;
+    border-radius: 2px;
+}
+
+
+.language{
+    margin-top: 20px;
+}
+
+.la{
+    color: white;
+    background-color:  #131921;
+    border-style: none;
+
+}
+
+.sign_in{
+    height: 42px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.h3_1,.h7_1{
+    color: white;
+}
+
+.sign_in:hover{
+    border: 1px solid white;
+}
+
+.h6_1, .h4_1{
+    color: white;
+}
+
+.return{
+    height: 35px;
+    margin-top: 12px;
+    margin-right: 3px;
+}
+
+.return:hover{
+    border: 1px solid white;
+}
+
+.new_container{
+    height: 39px;
+    width: 100%;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-between;
+}
+
+#mini_tv, #sell, #best_seller, #Mobiles, #Today_deals, #Customer_ser, #Electronics, #New_release, #home_kitchen, #Fashion{
+    color: white;
+}
+
+#amazon_pay, #gift_ideas, #computers, #books{
+    color: white;
+}
+
+.min1, .min2, .min3, .min4, .min5, .min6, .min7, .min8, .min9, .min10, .min11, .min12, .min13, .min14{
+    padding-top: 8px;
+}
+
+.mini_tv:hover{
+    border: 1px solid white;
+}
+
+.sell:hover{
+    border: 1px solid white;
+}
+
+.best_seller:hover{
+    border: 1px solid white;
+}
+
+.Mobiles:hover{
+    border: 1px solid white;
+}
+
+.Today_deals:hover{
+    border: 1px solid white;
+}
+
+.Customer_Service:hover, .Electronics:hover, .New_release:hover, .home_kitchen:hover, .Fashion:hover{
+    border: 1px solid white;
+}
+
+.amazon_pay:hover, .gift_ideas:hover, .computers:hover, .books:hover{
+    border: 1px solid white;
+}
+
+/* now Main css satrt */
+
+.main{
+    height: 650px;
+    width: 100%;
+    background-image: url(bg_image.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.adv{
+    height : 358px;
+    width: 1480px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 250px;
+}
+
+.adv1{
+    height: 358px;
+    width: 350px;
+    background-color: white;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.adv2{
+    height: 358px;
+    width: 350px;
+    background-color: white;
+    padding: 5px;
+}
+
+.adv3{
+    height: 358px;
+    width: 350px;
+    background-color: white;
+    padding: 5px;
+}
+
+.adv4{
+    height: 358px;
+    width: 350px;
+    background-color: white;
+    padding: 5px;
+}
+
+.fr, .fo, .fi, .bathroom{
+    margin-left: 15px;
+}
+
+.was, .begs, .ligh, .extension{
+    margin-left: 15px;
+}
+
+.mi,.wa, .home_storage, .hammer{
+    margin-top: 40px;
+}
+
+.air, .clo , .cus , .spin{
+    margin-top: 25px;
+}
+
+
+/* footer css */
+
+.newcustomer{
+    height: 125px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.sign_in1{
+    width: 230px;
+    height: 28px;
+    color: black;
+    background-color: #FFC940;
+    border-style: none;
+    border-radius: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.sign_in1:hover{
+    background-color: rgb(234, 234, 15);
+}
+
+.back_to_top{
+    height: 50px;
+    width: 100%;
+    background-color: #485769;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back{
+    color: white;
+}
+
+.linkes{
+    height: 350px;
+    background-color: #232F3E;
+    display: flex;
+}
+
+.get_know{
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 300px;
+}
+
+.ab, .care, .press, .ama{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+
+.ab:hover, .care:hover, .press:hover, .ama:hover{
+    text-decoration: underline;
+}
+
+.connect{
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 380px;
+}
+
+.k{
+    height: 10px;
+    visibility: hidden;
+}
+
+.make_money{
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 460px;
+}
+
+.let_us{
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 540px;
+}
+
+.extra{
+    height: 200px;
+    background-color: #131921;
+}
+
+.abbe_book{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 270px;
+}
+
+.abbe_book1, .shopbop1, .amazon_service1, .amazon_business1, .audible1, .prime_now1, .imdb1, .amazon_prime_music1{
+    color: #DDDDDD;
+}
+
+.abbe_book2, .shopbop2, .amazon_service2, .amazon_business2, .audible2, .prime_now2, .imdb2, .amazon_prime_music2{
+    list-style-type: none;
+    color: #99998A;
+}
+
+.abbe_book1:hover, .shopbop1:hover, .amazon_service1:hover, .amazon_business1:hover, .audible1:hover{
+    text-decoration: underline;
+}
+
+.prime_now1:hover, .imdb1:hover, .amazon_prime_music1:hover{
+    text-decoration: underline;
+}
+
+.shopbop{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 177px;
+}
+
+.amazon_service{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 300px;
+}
+
+.amazon_business{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 167px;
+}
+
+.audible{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 300px;
+}
+
+.prime_now{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 213px;
+}
+
+.imdb{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 300px;
+}
+
+.amazon_prime_music{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 213px;
+}
+
+.copyright{
+    background-color: #131921;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.copyright1{
+    color: white;
+}
